@@ -116,14 +116,23 @@
 .notice3 li a span {display: block; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; font-size: 12px;}
 .notice3 a.more {position: absolute; right: 0; top: 0; display: block; background: url(../img/icon.png) -150px -90px; width: 17px; height: 17px;}
 
-/* mouse hover effect*/
+/* mouse hover effect */
 .notice_hover h4 {font-size: 14px; color:#0093bd; padding-bottom: 3px; font-weight: bold;}
 .notice_hover ul {overflow: hidden;}
 .notice_hover li {float: left; width: 93px; margin-right: 5px; text-align: center;}
 .notice_hover li:last-child {margin-right: 0;}
-.notice_hover li a {}
 .notice_hover li a span {display: block; width: 93px; height: 93px; line-height: 93px; position: relative;}
 .notice_hover li a span img {width: 100%;}
 .notice_hover li a span em {visibility: hidden; position: absolute; left: 0; top: 0; background: rgba(0,0,0,0.6); color: #fff; width: 100%; height: 100%;}
 .notice_hover li a span:hover em {visibility: visible;}
 .notice_hover li a strong {display: inline-block; padding-top: 3px; font-size: 12px;}
+
+/* mouse hover effect 2 */
+.notice_hover2 ul {overflow: hidden;}
+.notice_hover2 li {float: left; width: 93px; margin-right: 5px; text-align: center;}
+.notice_hover2 li:last-child {margin-right: 0;}
+.notice_hover2 li a span {display: block; width: 93px; height: 93px; position: relative;}
+.notice_hover2 li a span img {width: 100%;}
+.notice_hover2 li a span em {visibility: hidden; position: absolute; left: 0; bottom: 0; background: rgba(0,0,0,0.6); color: #fff; width: 100%; height: 100%;}
+.notice_hover2 li a span:hover em {visibility: visible;}
+.notice_hover2 li a strong {display: inline-block; padding-top: 3px; font-size: 12px;}
