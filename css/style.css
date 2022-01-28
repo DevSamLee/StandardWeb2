@@ -10,7 +10,7 @@
 #wrap { }
 #header {height: 325px; background: url(../img/header_bg.jpg) center top repeat-x}
 #contents { }
-#footer {height: 200px; line-height: 200px; background: #333;}
+#footer {border-top: 1px solid #eee;}
 
 /* contents layout */
 #cont_nav {background-color: #f6fdff;}
@@ -197,3 +197,10 @@
 .popup li {float: left; width: 93px; margin-right: 5px;}
 .popup li.last {margin-right: 0;}
 .popup li img {width: 100%;}
+
+/* footer */
+.footer {padding: 25px 0; text-align: center;}
+.footer ul {margin-bottom: 20px;}
+.footer li {position: relative; display: inline; padding: 0 7px 0 10px;}
+.footer li:before {content: ''; width: 1px; height: 12px; background: #ccc; position: absolute; left: 0; top: 2px;}
+.footer li:first-child:before {width: 0; height: 0;}
