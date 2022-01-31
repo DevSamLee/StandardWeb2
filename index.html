@@ -323,25 +323,25 @@
        <div class="tab_menu">
         <h4 class="ir_su">Tab menu</h4>
         <ul>
-         <li class="active"><a href="#">Notice 1</a>
+         <li class="active"><a href="#">HTML</a>
           <ul>
-           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quidem!</a></li>
-           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quidem!</a></li>
-           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quidem!</a></li>
+           <li><a href="#">[html] Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quidem!</a></li>
+           <li><a href="#">[html] Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quidem!</a></li>
+           <li><a href="#">[html] Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quidem!</a></li>
           </ul>
          </li>
-         <li><a href="#">Notice 2</a>
-          <ul style="display: none;">
-           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quidem!</a></li>
-           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quidem!</a></li>
-           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quidem!</a></li>
+         <li><a href="#">CSS</a>
+          <ul>
+           <li><a href="#">[css] Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quidem!</a></li>
+           <li><a href="#">[css] Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quidem!</a></li>
+           <li><a href="#">[css] Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quidem!</a></li>
           </ul>
          </li>
-         <li><a href="#">Notice 3</a>
-          <ul style="display: none;">
-           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quidem!</a></li>
-           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quidem!</a></li>
-           <li><a href="#">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quidem!</a></li>
+         <li><a href="#">jQuery</a>
+          <ul>
+           <li><a href="#">[jQuery] Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quidem!</a></li>
+           <li><a href="#">[jQuery] Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quidem!</a></li>
+           <li><a href="#">[jQuery] Lorem ipsum dolor sit amet, consectetur adipisicing elit. Culpa, quidem!</a></li>
           </ul>
          </li>
         </ul>   
@@ -427,6 +427,19 @@
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script type="text/javascript">
+    //tab_menu - for web standard (digital accessibility)
+    var $tab_list = $(".tab_menu");
+
+    $tab_list.find("ul ul").hide();
+    $tab_list.find("li.active > ul").show();
+
+    function tabMenu(e){
+      e.preventDefault();
+      var $this = $(this);
+      $this.next("ul").show().parent("li").addClass("active").siblings("li").removeClass("active").find(">ul").hide();
+    }
+    $tab_list.find("ul>li>a").click(tabMenu).focus(tabMenu);
+
     //banner
     $('.ban').slick({
       infinite: true,
@@ -436,6 +449,7 @@
       autoplaySpeed: 3000,
       dots: true
     });
+    
     $(".tit .btn").click(function(e){
       e.preventDefault();
       //$("#cont_nav").css("display", "block");
