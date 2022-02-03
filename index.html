@@ -102,7 +102,7 @@
    <div id="cont_tit">
     <div class="container">
      <div class="tit">
-      <h2>I am a Web publiser!</h2>
+      <h2>I am a Web publisher!</h2>
       <a href="#" class="btn"><span class="ir_pm">Menu</span></a>
      </div>
     </div>
@@ -252,7 +252,7 @@
        <div class="popup">
         <h4>Advertisement</h4>
         <ul>
-         <li><a href="#"><img src="img/sban07.jpg" alt="image1"></a></li>
+         <li class="layer"><a href="#"><img src="img/sban07.jpg" alt="image1"></a></li>
          <li><a href="#"><img src="img/sban08.jpg" alt="image2"></a></li>
          <li class="last"><a href="#"><img src="img/sban09.jpg" alt="image3"></a></li>
         </ul>
@@ -436,10 +436,33 @@
   <!-- //footer -->
  </div>
  <!-- //wrap -->
+ <!-- Layer popup -->
+  <div id="layer">
+    <img src="img/webstandard1.jpg" alt="web standard">
+    <a href="#" class="close">Close</a>
+  </div>
+ <!-- End of Layer popup -->
  <!-- script -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="js/slick.min.js"></script>
   <script type="text/javascript">
+    //layer popup
+    $(".layer").click(function(e) {
+      e.preventDefault();
+      //$("#layer").css("display", "block");
+      $("#layer").show();
+      //$("#layer").fadeIn();
+      //$("#layer").slideDown();
+    });
+
+    $("#layer .close").click(function (e) {
+        e.preventDefault();
+        //$("#layer").css("display", "block");
+        //$("#layer").show();
+        $("#layer").fadeOut();
+        //$("#layer").slideDown();
+      });
+
     //tab_menu - for web standard (digital accessibility)
     var $tab_list = $(".tab_menu");
 
