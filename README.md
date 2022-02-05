@@ -12,6 +12,10 @@
 |---------------------|
 | ![](./image/overview.png) |
 
+| Web Standard is...               | 
+|---------------------|
+| ![](./image/webstandard3.jpg) |
+
 
 <!-- CONTACT -->
 ## Contact
