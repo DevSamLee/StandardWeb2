@@ -33,13 +33,10 @@
 |---------------------|
 | ![](./image/popup.gif) |
 
-| Mouse Hover     | portfolio   |
-|---------------------|--------------------|
-| ![](./image/mouse_hover.gif) | ![](./image/portfolio.gif) |
+| Mouse Hover     | portfolio   |  Tab menu     | 
+|---------------------|--------------------|---------------------|
+| ![](./image/mouse_hover.gif) | ![](./image/portfolio.gif) | ![](./image/tab_menu.gif) |
 
-| Tab menu     | 
-|---------------------|
-| ![](./image/tab_menu.gif) |
 
 
 <!-- CONTACT -->
