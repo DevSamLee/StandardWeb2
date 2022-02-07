@@ -21,7 +21,7 @@
 |---------------------|
 | ![](./image/slide_menu.gif) |
 
-| Slick menu * Link: https://kenwheeler.github.io/slick/ | 
+| Slick wheel menu * Link: https://kenwheeler.github.io/slick/ | 
 |---------------------|
 | ![](./image/slick_menu.gif) |
 
