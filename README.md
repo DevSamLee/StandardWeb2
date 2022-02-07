@@ -13,7 +13,7 @@
 |---------------------|
 | ![](./image/accessibility.gif) |
 
-| IR effect for Screen Reader :headphones: |
+| IR effect for Screen Readers :headphones: |
 |---------------------|
 |![](./image/IR_effect.png) |
 
@@ -41,7 +41,7 @@
 |---------------------|--------------------|---------------------|
 | ![](./image/mouse_hover.gif) | ![](./image/portfolio.gif) | ![](./image/tab_menu.gif) |
 
-| Succeed in validator checks the markup validity of Web documents in HTML, XHTML, CSS 👍  | 
+| Succeed in validator checks the markup validity of Web documents in HTML, CSS 👍  | 
 |---------------------|
 | ![](./image/w3c.png) |
 
@@ -49,7 +49,7 @@
 <!-- CONTACT -->
 ## Contact
 
-Sam Lee - [@LinkedIn](https://www.linkedin.com/in/sam-lee-343862155/) - LeeSam235711@gmail.com
+Sam Lee - [@LinkedIn](https://www.linkedin.com/in/sam-lee-dev/) - LeeSam235711@gmail.com
 
 
 <p align="right">(<a href="#top">back to top</a>)</p>
