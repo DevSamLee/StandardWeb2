@@ -9,9 +9,9 @@
 
 ## Overview
 
-| Tab menu for mouse users :raising_hand: | 
-|---------------------|
-| ![](./image/accessibility.gif) |
+| Tab menu for mouse users :raising_hand: |  IR effect for Screen Reader :headphones: |
+|---------------------|---------------------|
+| ![](./image/accessibility.gif) | ![](./image/IR_effect.png) |
 
 | Sliding menu | 
 |---------------------|
