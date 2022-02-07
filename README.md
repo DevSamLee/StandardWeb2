@@ -41,6 +41,9 @@
 |---------------------|--------------------|---------------------|
 | ![](./image/mouse_hover.gif) | ![](./image/portfolio.gif) | ![](./image/tab_menu.gif) |
 
+| Succeed in validator checks the markup validity of Web documents in HTML, XHTML 👍  | 
+|---------------------|
+| ![](./image/w3c.png) |
 
 
 <!-- CONTACT -->
