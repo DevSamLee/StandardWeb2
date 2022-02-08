@@ -13,7 +13,7 @@
 |---------------------|
 | ![](./image/accessibility.gif) |
 
-| IR effect for Screen Readers :headphones: |
+| IR effect for Screen Reader users :headphones: |
 |---------------------|
 |![](./image/IR_effect.png) |
 
