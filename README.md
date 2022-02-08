@@ -9,7 +9,7 @@
 
 ## Overview
 
-| Tab menu for mouse users :raising_hand: |  
+| Tab menu for keyboard users :raising_hand: |  
 |---------------------|
 | ![](./image/accessibility.gif) |
 
