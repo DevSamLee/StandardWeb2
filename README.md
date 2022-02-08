@@ -41,7 +41,7 @@
 |---------------------|--------------------|---------------------|
 | ![](./image/mouse_hover.gif) | ![](./image/portfolio.gif) | ![](./image/tab_menu.gif) |
 
-| Succeed in validator checks the markup validity of Web documents in HTML, CSS 👍  | 
+| Succeeded in validator checks for the markup validity of Web documents in HTML, CSS 👍  | 
 |---------------------|
 | ![](./image/w3c.png) |
 
